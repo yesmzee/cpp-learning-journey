@@ -1,7 +1,8 @@
 #include <iostream>
+using namespace std;
 int main()
 {
-    std::cout << "Hello, World !" << std::endl;
-    std::cout << "this is zeeshan's first cpp file " << std::endl
+    cout << "Hello, World !" << endl;
+    cout << "this is zeeshan's first cpp file " << endl
               << "learning the basics again";
 }
