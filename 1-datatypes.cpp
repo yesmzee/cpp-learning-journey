@@ -20,10 +20,16 @@ int main()
 
     float height = 5.9;   // float --> for 6-7 digit precision (size: 4 bytes)
     double weight = 70.5; // double --> for 15-16 digit precision (size: 8 bytes)
+    long double distance = 123456789.123456789; // long double --> for 18-19 digit precision (size: 12 bytes)
 
+    // CHARACTER DATA TYPE
     char grade = 'A'; // character data type
+    // char have numeric values as well, for example: 'A' = 65, 'B' = 66, 'C' = 67, etc.
+    char letter = 65; // 'A' has a numeric value of 65
 
+    // BOOLEAN DATA TYPE
     bool isStudent = true; // boolean data type
 
+    // STRING DATA TYPE
     string name = "Zeeshan"; // string data type
 }
