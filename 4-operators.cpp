@@ -81,5 +81,35 @@ int main()
     string result = (age >= 18) ? "you are adult" : "you are a minor";
     cout << result << endl;
 
+    // sizeof() operator --> used to find the size of a data type or variable in bytes
+    cout << sizeof(int) <<" bytes" << endl;
+    cout << sizeof(float) << " bytes" << endl;
+    cout << sizeof(double) << " bytes" << endl;
+    cout << sizeof(char) << " bytes" << endl;
+    cout << sizeof(bool) << " bytes" << endl;
+
+    long double myHeight = 5.9348734233234;
+    cout << sizeof(myHeight) << " bytes" << endl;
+
+    // comma operator ( , ) --> used to separate multiple expressions or variables in a single statement
+
+    int a = 5, b = 10, c = 15;
+    cout << (a, b, c) << endl; // will print the value of c
+    
+    // typecasting operator --> used to convert a variable from one data type to another
+
+    int p = 10;
+    float q = 3.14;
+    int r = static_cast<int>(q); // typecasting float to int
+    cout << r << endl; // will print 3 cuz it will remove the decimal part 
+
+    // address & pointer operators ( &, * ) used to get the address of a variable and to access the value at that address
+
+    int s = 10;
+    int *ptr = &s; // pointer variable ptr stores the address of variable s
+    cout << "address of s : " << &s << endl;
+    cout << "value at address stored in ptr : " << *ptr << endl;
+    
+
     return 0;
 }
