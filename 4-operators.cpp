@@ -22,6 +22,7 @@ int main()
     int c = 10; // simple assignment
 
     // compound assignment operators ( +=, -=, *=, /=, %= )
+
     c += 5; // c = c + 5
     cout << c << endl;
     c -= 3; // c = c - 3
@@ -32,6 +33,24 @@ int main()
     cout << c << endl;
     c %= 3; // c = c % 3
     cout << c << endl;
+
+    // comparison operators ( ==, !=, >, <, >=, <= ) used to compare two values 
+    
+    int x = 10, y = 20;
+
+    cout << (x == y) << endl; // equal to
+    cout << (x != y) << endl; // not equal to
+    cout << (x > y) << endl;  // greater than
+    cout << (x < y) << endl;  // less than
+    cout << (x >= y) << endl; // greater than or equal to
+    cout << (x <= y) << endl; // less than or equal to
+
+    // logical operators ( &&, ||, ! ) used to combine conditions in conditional statements
+    
+    int x = 10, y = 20, z = 30;
+    cout << (x < y && y < z) << endl; // if both conditions are true then it will return true (1)
+    cout << (x < y || y > z) << endl; // if any one condition is true then it will return true (1)
+    cout << !(x > y) << endl;          // if the condition is false then it will return true (1)
     
 
     return 0;
