@@ -94,9 +94,9 @@ int main()
 
     // COMMA OPERATOR ( , ) --> used to separate multiple expressions or variables in a single statement
 
-    int a = 5, b = 10, c = 15;
-    cout << (a, b, c) << endl; // will print the value of c
-    
+    int o = 5, e = 10, w = 15;
+    cout << (o, e, w) << endl; // will print the value of w
+
     // TYPECASTING OPERATOR --> used to convert a variable from one data type to another
 
     int p = 10;
