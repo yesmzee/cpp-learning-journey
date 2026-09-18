@@ -1,4 +1,4 @@
-// SWITCH STATMENT
+// SWITCH STATEMENT
 #include <iostream>
 using namespace std;
 
